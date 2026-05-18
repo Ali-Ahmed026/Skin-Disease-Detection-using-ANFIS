@@ -1,0 +1,24 @@
+# requirements.txt
+# Skin Disease Detection — Streamlit App Dependencies
+# Pin to tested versions to avoid breaking changes on Streamlit Cloud.
+
+# Web framework
+streamlit>=1.32.0
+
+# Deep learning (CPU-only TF is sufficient for inference; backbone auto-downloads)
+tensorflow-cpu>=2.15.0
+
+# PyTorch CPU (ANFIS inference only, no GPU needed for deployment)
+torch>=2.2.0
+# torchvision is not required for this app
+
+# Scientific computing
+numpy>=1.24.0
+scikit-learn>=1.4.0
+
+# Image handling
+Pillow>=10.0.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
